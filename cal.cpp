@@ -58,6 +58,7 @@ bool Stack::isEmpty(void)
     else
         return 0;
 }
+
 int Stack::getpre(char op)
 {
     if(op == '+' || op == '-')
@@ -68,6 +69,7 @@ int Stack::getpre(char op)
         return -1;
     return 0;
 }
+
 bool Stack::isNum(char tmp)
 {
     if('0' <= tmp && tmp <= '9')
