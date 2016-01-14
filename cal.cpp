@@ -135,7 +135,7 @@ void Stack::convert_postfix(char *input)
 	}
 
 	while(!isEmpty())
-		output[idx++] = pop();
+		output[j++] = pop();
 
 	strcpy(input, output);
 	delete[] output;
